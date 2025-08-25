@@ -81,6 +81,9 @@ markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "integration: marks tests as integration tests",
     "unit: marks tests as unit tests",
+    "csv: marks tests that use CSV functionality",
+    "plotting: marks tests that require plotting libraries",
+    "performance: marks tests that measure performance",
 ]
 
 [tool.coverage.run]
